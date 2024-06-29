@@ -1,0 +1,666 @@
+
+/***********
+@import url('https://fonts.googleapis.com/css?family=Rambla:400,700|Saira+Condensed:300,400,500,700,900');
+**************/
+/*************start*************/
+img {
+	max-width:100%;
+	display:inline-block;
+}
+body {
+	font-family: 'Rambla', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin:0px;
+	padding:0px;
+	font-weight: normal;
+	line-height: 120%;
+}
+a, a:hover, a:focus{
+	text-decoration:none;
+	transition: 0.3s;
+}
+
+.welcome-area, .about-area, .single-about-area, 
+.ico-area, .documentation-area, .distibution-bg,
+.roadmap-area, .team-bg, .community-area, .footera-area{
+	background: #1c1c1c;
+}
+
+.welcome-btn>a:hover{
+	background-image: -webkit-linear-gradient(54deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+	background-image: -o-linear-gradient(54deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+}
+
+/*************Header Area start*************/
+
+
+
+.slicknav_open .slicknav_icon .slicknav_icon-bar:nth-child(1) {
+	rotate: 45deg;
+}
+.slicknav_open .slicknav_icon .slicknav_icon-bar:nth-child(2) {
+	display: none;
+}
+.slicknav_open .slicknav_icon .slicknav_icon-bar:nth-child(3) {
+	rotate: 145deg;
+	position: absolute;
+    left: 6px;
+    top: 0px;
+}
+
+/************  Bannar Area Start  *************/
+
+
+.welcome-text{
+	max-width: 445px;
+    width: 100%;
+    display: block;
+}
+/**** text animation  ****/
+
+.animate-charcter{
+	text-transform: uppercase;
+	background-image: linear-gradient(
+	171deg,
+	#231557 0%,
+	#44107a 29%,
+	#ff1361 67%,
+	#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/****  2nd animate  ****/
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+/****  text animation end ****/
+.welcome-text h4{
+	margin-bottom: 0px;
+}
+.welcome-text h5 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+
+.welcome-btn>a {
+	cursor: pointer;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+}
+.welcome-btn>a:after, .welcome-btn>a:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+.welcome-btn>a:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+.welcome-btn>a:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+.welcome-btn>a:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.welcome-btn>a:hover:before, .welcome-btn>a:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+/************ about Area Start  **************/
+
+
+/*************Video Setting start*************/
+
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+	opacity: 0.1;
+}
+/*************Video Setting End*************/
+
+.about-mid-text>p{
+	font-size: 14px;
+	line-height: 130%;
+	color: #fff;
+	display: block;
+}
+
+#about{
+	overflow: hidden;
+}
+
+/************ single-about-area(Valu) Area Start  **************/
+
+.single-about-area{
+	width: 100%;
+	display: block;
+	background: url(assets/img/sec_bg3.png) center center no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+}
+
+/**** text animation  ****/
+
+.single-about-area-head>h1{
+	text-transform: uppercase;
+	background-image: linear-gradient(
+	-225deg,
+	#231557 0%,
+	#44107a 29%,
+	#ff1361 67%,
+	#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.single-about-area-head>h1{
+	display: block;
+	font-size: 50px;
+	line-height: 120%;
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+	padding-bottom: 30px;
+}
+.valu_area .box .single-about .single-about-text p{
+	font-size: 14px;
+	line-height: 130%;
+	color: #fff;
+	display: block;
+}
+
+/*********  Our services_area Start  *********/
+.services_area{
+	width: 100%;
+	display: block;
+	background: url(assets/img/sec_bg3.png) center center no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+	padding-bottom: 70px;
+    position: relative;
+}
+.services_area:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("assets/img/bg/bg_images2.jpg") center center no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+.services_area_head{
+	width: 100%;
+	display: block;
+}
+.services_area_head p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 120%;
+	display: block;
+	padding-bottom: 25px;
+}
+
+/**** text animation  ****/
+
+.services_area_head>h1{
+	text-transform: uppercase;
+	background-image: linear-gradient(357deg, #AF40FF, #5B42F3 50%, #00DDEB);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.services_area_head>h1{
+	display: block;
+	font-size: 50px;
+	line-height: 120%;
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+	padding-bottom: 30px;
+}
+.services_area .services_area_m_text{
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding-bottom: 25px;
+}
+.services_area .services_area_m_text p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 120%;
+	display: block;
+	padding-bottom: 25px;
+}
+.services_area_carousel .single-item {
+	border: 2px solid#302c2c;
+    border-radius: 5px;
+    padding: 15px;;
+}
+.services_area_carousel .single-item a{
+	text-decoration: none;
+	display: none;
+}
+.services_area_carousel .single-item h2{
+	text-align: center;
+	font-size: 18px;
+	line-height: 120%;
+	color: #fff;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.services_area_carousel .single-item p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 130%;
+	display: block;
+}
+
+
+
+
+
+/***************** documentation-area Start  ************/
+
+.documentation-area{
+	width: 100%;
+	display: block;
+	background: url("assets/img/bg/bg_images9.jpg") center center no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+	position: relative;
+}
+.documentation-area:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 88%);
+    display: block;
+}
+.single-document{
+	position: relative;
+}
+.document-flag img{
+	border-radius: 10px;
+}
+/* Tooltip text */
+.whitepaper_link .tooltip_text {
+	font-size: 18px;
+  visibility: hidden;
+  width: 120px;
+  background: -webkit-linear-gradient(right,#2539c5,#9b4565,#2e56cf);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.whitepaper_link:hover .tooltip_text {
+  visibility: visible;
+}
+
+
+/************ token_distibution Area Start  **********/
+
+.token_distibution{
+	width: 100%;
+	display: block;
+	padding-top: 50px;
+	background: url("assets/img/bg/bg_images7.jpg") center center no-repeat;
+	background-size: cover;
+}
+.token_distibution:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 80%);
+    display: block;
+}
+.token_distibution .item-1 h1 {
+	font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.token_distibution .item-1 p {
+	font-size: 16px;
+    padding-bottom: 20px;
+}
+.distibution-d li {
+    font-size: 14px;
+}
+
+.token_distibution .item-1 ul {
+	text-align: center;
+}
+.token_distibution .item-1 ul li{
+	max-width: 40%;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 6px 15px;
+    background: rgb(34 34 38 / 33%);
+}
+.token_distibution .item-1 .distibution-list-5 {
+    max-width: 87%;
+}
+.token_distibution .item-1 ul li h3{
+	font-size: 20px;
+    padding-bottom: 10px;
+}
+.token_distibution .item-1 ul li span{
+	font-size: 14px;
+    font-weight: 400;
+}
+
+
+/********  roadmap  Area  *******/
+
+#roadmap{
+	width: 100%;
+	display: block;
+	background: url(assets/img/sec_bg2.jpg) center center no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+	position: relative;
+}
+
+
+/***
+.documentation-area:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 88%);
+    display: block;
+}****/
+
+/********  apps  Area Start *******/
+
+#apps .apps_head{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-bottom: 88px;
+}
+/**** text animation  ****/
+
+#apps{
+	width: 100%;
+	display: block;
+	background: url("assets/img/bg/bg_images4.jpg") center center no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+	position: relative;
+}
+#apps:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 80%);
+    display: block;
+}
+#apps .apps_head h1{
+	text-transform: uppercase;
+	background-image: linear-gradient(
+	-225deg,
+	#231557 0%,
+	#44107a 29%,
+	#ff1361 67%,
+	#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#apps .apps_head h1 {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 50px;
+}
+#apps .apps-img img {
+    width: 300px;
+    max-height: 450px;
+    height: 100%;
+}
+
+/********  FAQ  Area Start *******/
+
+.faq_area{
+	width: 100%;
+	display: block;
+	background: url(assets/img/banner_bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	position: relative;
+}
+
+/*********  partnerships  area Start  *********/
+
+.partnerships_area{
+	width: 100%;
+	display: block;
+	background: url("assets/img/bg/pbg3.jpg") center center no-repeat;
+	background-size: cover;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+}
+.partnerships_area:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 77%);
+    display: block;
+}
+.partnerships_area_head{
+	width: 100%;
+	display: block;
+}
+.partnerships_area_head h1{
+	text-transform: uppercase;
+	background-image: linear-gradient(
+	-225deg,
+	#231557 0%,
+	#44107a 29%,
+	#ff1361 67%,
+	#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.partnerships_area_head h1{
+    font-size: 43px;
+    font-weight: 700;
+	line-height: 120%;
+	text-align: center;
+	display: block;
+	padding-bottom: 65px;
+}
+
+/************* contact Area Start ********/
+
+#contact{
+	width: 100%;
+	display: block;
+	background: url("assets/img/bg/pbg2.jpg") center center no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	position: relative;
+}
+#contact:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 70%);
+    display: block;
+}
+
+/********* logo-area footer *******/
+
+.footera-area{
+	width: 100%;
+	display: block;
+	background: url("assets/img/bg/pbg.jpg") center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.footera-area:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 90%);
+    display: block;
+}
+.footera-area .logo-area{
+	text-align: center;
+}
+.single-community a.github i {
+    background: #0e76a8;
+}
+.footera-area .support_mail{
+	font-size: 16px;
+	line-height: 120%;
+	display: block;
+}
+.footera-area .support_mail p{
+	padding-bottom: 10px;
+}
+.footera-area .support_mail a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 120%;
+	display: block;
+	padding-bottom: 5px;
+}
+
+
+/*************end*************/

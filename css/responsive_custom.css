@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 1440px), only screen and (max-device-width: 1440px) {
+
+
+
+
+}
+
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+	/****
+body {
+    overflow-x: hidden;
+}***/
+	.logo-area{
+		padding-top: 0px;
+	}
+	.gradient-btn.v2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services_area_head>h1{
+		font-size: 40px;
+	}
+	.single-roadmap.road-right::before{
+		height: 79% !important;
+		bottom: 0;
+	}
+	.single-roadmap.road-right::after{
+		bottom: 0!important;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+
+	
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+	
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+	
+	
+	
+}
+
+
+
+
+
+
+
+
